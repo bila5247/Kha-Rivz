@@ -1,0 +1,34 @@
+.addbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    /* border-radius: 5px; */
+    font-weight: 600;
+    /* background: transparent; */
+    transition: all .3s ease;
+    position: relative;
+    background: #e9570a;
+    border: none;
+    z-index: 0;
+    padding: calc(7px + 5*(100vw - 320px) / 1600) calc(14px + .01125*(100vw - 320px)) !important;
+    /* border: 1px solid var(--theme-color); */
+}
+
+.addbtn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* .addbtn a:hover {
+    /* background-color: white; */
+/* border: 1px solid #E4853E; */
+
+/* } */
+
+
+.addbtn a:hover {
+    color: #fff;
+
+}
